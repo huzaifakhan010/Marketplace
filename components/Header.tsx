@@ -27,7 +27,7 @@ export default function Header() {
         {/* Top row */}
         <div className="flex w-full flex-wrap justify-between items-center">
             <Link href="/" 
-            className="text-3xl font-bold text-blue-500 hover:opacity-50 cursor-pointer mx-auto sm:mx-0"
+            className="text-3xl font-bold text-blue-600 hover:opacity-50 cursor-pointer mx-auto sm:mx-0"
             >Dukaan</Link>
             <Form  action="/search"
             className="w-full sm:w-auto sm:flex-1 sm:mx-4 mt-2 sm:mt-0">
